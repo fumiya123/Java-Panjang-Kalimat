@@ -19,7 +19,7 @@ public class HitungHuruf {
         String vokal = "AEIOUaeiou";
         
         // perulangan sebanyak panjang kalimat
-        for (char ch : kalimat.toCharArray()) { // toCharArray() mengonversi string menjadi array dari karakter (char[]).
+        for (char ch : kalimat.toCharArray()) { // toCharArray() mengonversi string menjadi array dari variabel kalimat
             // memeriksa ch berisi huruf atau tidak
             if (Character.isLetter(ch)) {
                 // memeriksa apakah ch memeiliki huruf yang sama dengan yang ada di variabel vokal
